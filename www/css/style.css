@@ -1,6 +1,5 @@
 /* Empty. Add your own CSS if you like */
 .azul{
-
     text-align: justify;
 }
 .botao-azul{
@@ -11,12 +10,28 @@
 .center{
     text-align: center;
 }
-.perc{
-    width: 50%;
+.afastar{
+    margin-top: 50px;
 }
-.none{
+.dec:link{
     text-decoration: none;
-    border-collapse: ;
+    color: #5A5A5A;
+}
+.dec:visited{
+    text-decoration: none;
+    color: #5A5A5A;
+}
+.dec:focus{
+    text-decoration: none;
+    color: #5A5A5A;
+}
+.button:hover{
+    text-decoration: none;
+    color: #5A5A5A;
+}
+.dec:active{
+    text-decoration: none;
+    color: #5A5A5A;
 }
 .ion-arrow-right-b{
     font-size: 25px;
@@ -34,5 +49,8 @@
     font-size: 25px;
 }
 .ion-clipboard{
+    font-size: 25px;
+}
+.title{
     font-size: 25px;
 }
