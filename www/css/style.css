@@ -1,0 +1,38 @@
+/* Empty. Add your own CSS if you like */
+.azul{
+
+    text-align: justify;
+}
+.botao-azul{
+    background-color: #003E65;
+    color: white;
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
+.perc{
+    width: 50%;
+}
+.none{
+    text-decoration: none;
+    border-collapse: ;
+}
+.ion-arrow-right-b{
+    font-size: 25px;
+}
+.ion-home{
+    font-size: 25px;
+}
+.ion-email{
+    font-size: 25px;
+}
+.ion-briefcase{
+    font-size: 25px;
+}
+.ion-checkmark-round{
+    font-size: 25px;
+}
+.ion-clipboard{
+    font-size: 25px;
+}

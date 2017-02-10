@@ -1,0 +1,46 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-positive">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left">
+    <ion-header-bar class="bar-positive">
+      <h1 class="title">Menu</h1>
+    </ion-header-bar>
+    <ion-content>
+      <ion-list>
+        <ion-item>
+        <div class="list">
+          <a class="item item-thumbnail center" href="http://focosmarketing.com.br">
+            <img src="img/logo2.png">
+          </a>
+        </div>
+        </ion-item>
+        <ion-item menu-close href="#/app/quemsomos">
+          <ul><li class="ion-home" data-pack="default"> Quem Somos</li></ul>
+        </ion-item>
+        <ion-item menu-close href="#/app/oquefazemos">
+          <ul><li class="ion-briefcase" data-pack="default"> O Que Fazemos</li></ul>
+        </ion-item>
+        <ion-item menu-close href="#/app/ondeatuamos">
+          <ul><li class="ion-checkmark-round" data-pack="default"> Onde Atuamos</li></ul>
+        </ion-item>
+        <ion-item menu-close href="#/app/clientes">
+          <ul><li class="ion-clipboard" data-pack="default"> Clientes</li></ul>
+        </ion-item>
+        <ion-item menu-close href="#/app/contato">
+          <ul><li class="ion-email" data-pack="default"> Contato</li></ul>
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>
