@@ -1,12 +1,12 @@
 
 {
-  "name": "My Ionic App",
-  "short_name": "My Ionic App",
+  "name": "Focos_Marketing_App",
+  "short_name": "Focos Mkt App",
   "start_url": "index.html",
   "display": "standalone",
   "icons": [{
-    "src": "icon.png",
-    "sizes": "512x512",
+    "src": "img/ionic.png",
+    "sizes": "128x128",
     "type": "image/png"
   }]
 }
